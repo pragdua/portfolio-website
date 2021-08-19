@@ -46,36 +46,3 @@ const fetchData = () => {
 
 fetchData();
 
-const getMusic = () => {
-
-
-    const options = {
-
-        method: "GET",
-        headers: {
-            "Accept": "application/json",
-            "Content-Type": "application/json",
-            "Authorization": "Bearer BQDOUAi3zvi6k7PV1lDN0jM92GMo-Viuh0jzCuxfIMHHZ3ceeySzF7wJzhiOllhusy3MQZHi5CkKGCV8WPEANfnZS4zrO1ey1ExJJ7ij5cSuZGli5Myj_-QT7TqElLaseUDag4YwUsqWlECSC8w5Piv1wKKpcRNoE8Q4cvrM"
-        }
-    }
-
-    const renderMusic = (musicData) => {
-
-        const artist = musicData.item.name;
-        console.log(artist); 
-
-        document.querySelector(".circl").innerHTML = `${artist}`; 
-    
-
-        
-    }  
-
-    fetch("https://api.spotify.com/v1/me/player/currently-playing?market=IN" , options)
-        .then(res => res.json())
-        .then(data => renderMusic(data));
-
-
-
-}
-
-getMusic();
