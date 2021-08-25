@@ -1,0 +1,78 @@
+:root{
+
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+body{
+
+    background-color: #121212;
+
+}
+
+
+.container{
+
+    width: 80%;
+    max-width: 30rem;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+
+
+}
+
+.project-list {
+
+    color: white;
+    margin-top: 5vh;
+
+}
+
+.project-card{
+
+
+    padding:1vh;
+    border-radius: 10px;
+    /* margin-top:2vh; */
+}
+
+
+.proj-title {
+
+    color: #8b9cff;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+.remark {
+
+    color: rgba(114, 114, 114, 0.692);
+
+}
+
+hr {
+    
+    border: none;
+    border-top: 2px solid #8b9cff69;
+
+}
+
+.back {
+
+    text-decoration: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.source{
+
+    text-decoration:3px dotted underline rgba(128, 128, 128, 0.534); 
+    color:grey;
+
+}

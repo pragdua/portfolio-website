@@ -1,6 +1,6 @@
 :root{
 
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Lato', sans-serif;
 
 }
@@ -8,6 +8,7 @@
 body{
 
     background-color: #121212;
+    color:white;
 
 }
 
@@ -24,42 +25,6 @@ body{
 
 }
 
-.project-list {
-
-    color: white;
-    margin-top: 5vh;
-
-}
-
-.project-card{
-
-
-    padding:1vh;
-    border-radius: 10px;
-    /* margin-top:2vh; */
-}
-
-
-.proj-title {
-
-    color: #8b9cff;
-    font-size: 1.1rem;
-    font-weight: 600;
-
-}
-
-.remark {
-
-    color: rgba(114, 114, 114, 0.692);
-
-}
-
-hr {
-    
-    border: none;
-    border-top: 2px solid #8b9cff69;
-
-}
 
 .back {
 
@@ -70,9 +35,28 @@ hr {
 
 }
 
-.source{
+.card {
 
-    text-decoration:3px dotted underline rgba(128, 128, 128, 0.534); 
-    color:grey;
+    padding: 1.5rem;
+    margin-top:1rem;
+    border-radius:5px;
+    
 
 }
+
+.card-title {
+
+    font-size:1rem;
+    text-decoration: none;
+    color: #8b9cff;
+
+  
+    
+}
+
+.descr {
+
+    color: grey;
+
+}
+
