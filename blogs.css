@@ -28,7 +28,7 @@ body {
 }
 
 .proj-title {
-  color: #8b9cff;
+  color: #01FFCD;
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -37,10 +37,6 @@ body {
   color: rgba(114, 114, 114, 0.692);
 }
 
-hr {
-  border: none;
-  border-top: 2px solid #8b9cff69;
-}
 
 .back {
   text-decoration: none;
