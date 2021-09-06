@@ -56,7 +56,7 @@ body{
 
  .h3Span {
 
-    color: #01FFCD;
+    color: #8b9cff;
 
  }
 
@@ -65,7 +65,7 @@ body{
     text-decoration: none;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 4px solid #01FFCD;
+    border-bottom: 4px solid #8b9cff;
 
  }
 
@@ -73,7 +73,7 @@ body{
 
     font-weight: bold;
     font-size: 1rem;
-    color: #01ffcc80;
+    color: #8b9cff57;
 
     
 }
@@ -93,7 +93,7 @@ body{
 .sm-link {
 
     text-decoration: none;
-    color: #01FFCD;
+    color: #8b9cff;
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
     line-height: 1rem;
